@@ -14,7 +14,7 @@ REM OpenWinPwn was created for Windows users so they can generate
 REM a simple so called "HEllo World" template for iDevice payloads.
 REM BTW: DarkMalloc is the admin of OpenPwn so special thanks to him.
 REM 
-REM Thread @ OpenPwn : http://forums.openPwn.org/viewtopic.php?f=8&t=86
+REM Thread @ OpenPwn : http://forums.openpwn.org/viewtopic.php?f=8&t=86
 REM Open-Source @    : http://github.com/fallensn0w/OpenWinPwn
 REM 
 REM Programmed by @Fallensn0w at twitter.
