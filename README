@@ -1,14 +1,13 @@
  
  OpenWinPwn was created for Windows users so they can generate
- a simple so called "HEllo World" template for iDevice payloads.
- BTW: DarkMalloc is the admin of OpenPwn so special thanks to him.
-
- OpenWinPwn usage:  OpenWinPwn.bat <payload name> <payload author>
+ a simple so called "Hello World" template for iDevice payloads.
  
+ OpenPwn was originally made for Mac users only. (With a little bit of hacking, Linux users were able to use it aswell)
+ But OpenWinPwn made it possible for Windows users to use OpenPwn. 
 
- OpenPwn Thread   : http://forums.openPwn.org/viewtopic.php?f=8&amp;t=86
- Open-Sourced     : http://github.com/fallensn0w/OpenWinPwn
+ OpenWinPwn usage:  OpenWinPwn.bat <payload name> <author>  OR  Start OpenWinPwn.bat and follow the instructions. 
 
- A much more understanding README: http://forums.openpwn.org/viewtopic.php?f=8&t=86
+
+ OpenWinPwn Thread : http://forums.openPwn.org/viewtopic.php?f=8&amp;t=86 (DEAD)
  
  
