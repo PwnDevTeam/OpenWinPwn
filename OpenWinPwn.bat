@@ -1,6 +1,5 @@
 @echo off
 
-
 set FOLDER=%1
 set AUTHOR=%2
 set APPZ=OpenWinPwn.bat
@@ -9,17 +8,9 @@ set VERSION=2.0
 title OpenWinPwn V%VERSION% -- By: Fallensn0w
 
 REM
-REM 
-REM OpenWinPwn was created for Windows users so they can generate
-REM a simple so called "HEllo World" template for iDevice payloads.
-REM BTW: DarkMalloc is the admin of OpenPwn so special thanks to him.
-REM 
-REM Thread @ OpenPwn : http://forums.openpwn.org/viewtopic.php?f=8&t=86
-REM Open-Source @    : http://github.com/fallensn0w/OpenWinPwn
-REM 
-REM Programmed by @Fallensn0w at twitter.
-REM
-REM
+REM OpenWinPwn
+REM Programmed by @Fallensn0w.
+REM http://wwww.github.com/Fallensn0w/OpenWinPwn
 REM
 
 REM Check if we are using paramenters
@@ -59,6 +50,7 @@ echo 	@echo '  make s5l8720 (iPod touch 2G)' >> Makefile
 echo 	@echo '  make s5l8920 (iPhone 3GS)' >> Makefile
 echo 	@echo '  make s5l8922 (iPod Touch 3G)' >> Makefile
 echo 	@echo '  make s5l8930 (iPad, iPhone 4, AppleTV 2G)' >> Makefile
+echo    @echo '  make s5l8940 (iPad 2 - Not possible to use yet)' >> Makefile
 echo 	@echo ' ' >> Makefile
 echo. >> Makefile
 echo s5l8900: >> Makefile
@@ -76,6 +68,10 @@ echo. >> Makefile
 echo s5l8930: >> Makefile
 echo 	@cd src; make s5l8930; cd .. >> Makefile
 echo. >> Makefile
+echo s5l8940: >> Makefile
+echo 	@cd src; make s5l8940; cd .. >> Makefile
+echo. >> Makefile
+
 echo package: >> Makefile >> Makefile
 echo 	tar cjf %FOLDER%.tar.gz includes src build README.txt Makefile >> Makefile
 echo. >> Makefile
@@ -195,6 +191,6 @@ echo. >> README
 REM KTHXBYE.
 cd ..
 echo.
-echo Your payload "%FOLDER%" is generated. (Location: %USERPROFILE%\Desktop\%PAYLOAD%).
+echo Your payload "%FOLDER%" is generated and ready to use. (Location: %USERPROFILE%\Desktop\%PAYLOAD%).
 echo.
 pause
